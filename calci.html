@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calci.css">
+    </head>
+    <body>
+        <div id="calci">
+                <form>
+                    <input class="txt" type="text" name="answer">
+            <div id="buton">
+                <button class="btn btn-yellow" type="button" onclick="answer.value += '*'">*</button>
+                <button class="btn btn-yellow" type="button" onclick="answer.value += '/'">/</button>
+                <button class="btn btn-yellow" type="button" onclick="answer.value += '+'">+</button>
+                <button class="btn btn-yellow" type="button" onclick="answer.value += '-'">-</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '9'">9</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '8'">8</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '7'">7</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '6'">6</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '5'">5</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '4'">4</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '3'">3</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '2'">2</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '1'">1</button>
+                <button class="btn btn-blue" type="button" onclick="answer.value += '0'">0</button>
+                <button class="btn btn-black" type="button" onclick="answer.value=eval(answer.value)">=</button>
+                <button class="btn btn-red" type="button" onclick="answer.value = ''">c</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
